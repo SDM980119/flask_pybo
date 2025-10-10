@@ -37,7 +37,7 @@
                     <img src="{{ url_for('static', filename=question.image_path) }}" alt="썸네일" style="width: 50px">
                     {% endif %}
 
-                <a href="{{ url_for('question.detail', question_id=question.id) }}/">{{question.subject}}</a>
+                <a href="{{ url_for('question.detail', question_id=question.id) }}/">수정이 바보</a>
 
 
                 {% if question.answers_set|length>0 %}
